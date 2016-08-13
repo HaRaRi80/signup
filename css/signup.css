@@ -37,6 +37,7 @@ label, input, button {
 }
 input, button {
     height: 51px;
+    border-radius: 4px;
 }
 label {
     font-size: 16px;
@@ -44,7 +45,7 @@ label {
 input {
     width: 286px;
     border: solid 2px #dbdcdb;
-    padding: 0 15px 0 15px;
+        padding: 0 15px 0 15px;
     font-size: 20px;
 }
 button {
