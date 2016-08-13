@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1, p, a {
+    color: #535355;
+    text-align: center;
+}
+body {
+    background-color: #4496e4;
+    font-family: Helvetica, arial, sans-serif;
+}
+main {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.logo {
+    height: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+section {
+    background: #ffffff;
+    padding: 40px;
+    margin-top: 50px;
+}
+fieldset {
+    border: none;
+    margin-top: 40px;
+}
+label, input, button {
+    display: block;
+    margin-bottom: 25px;
+}
+input, button {
+    height: 51px;
+}
+label {
+    font-size: 16px;
+}
+input {
+    width: 286px;
+    border: solid 2px #dbdcdb;
+    padding: 0 15px 0 15px;
+    font-size: 20px;
+}
+button {
+    width: 100%;
+    background-color: #68c373;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+}
+button:hover {
+    background-color: #025802;
+    cursor: pointer;
+}
+.login {
+    margin-top: 5px;
+}
+.login p, .login a {
+    font-size: 14px;
+    color: #ffffff;
+}
+input::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: gray;
+}
+input::-moz-placeholder {
+    /* Firefox 19+ */
+    color: gray;
+}
+input:-ms-input-placeholder {
+    /* IE 10+ */
+    color: gray;
+}
+input:-moz-placeholder {
+    /* Firefox 18- */
+    color: gray;
+}
